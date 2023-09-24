@@ -1,0 +1,46 @@
+*{
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+h1{
+    color: rgb(42, 22, 216);
+    text-align: center;
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 4%;
+    margin-top: 1%;
+}
+img{
+    width: 300px;
+    height: 230px;
+    border-radius: 8px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(199, 29, 29);
+}
+.main{
+    text-align: center;
+}
+.main2{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.gk{
+    margin-left: 10%;
+    filter: opacity(0.7);
+    filter: blur(0.3);
+    border: 2px solid black;
+    margin-bottom: 3%;
+    border-radius: 8px;
+    background-color: bisque;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.747);
+}
+.gk:hover{
+    filter:opacity(1) ;
+    
+}
